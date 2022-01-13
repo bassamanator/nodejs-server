@@ -24,4 +24,8 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {});
 
+app.delete('/', (req, res) => {});
+
+app.patch('/', (req, res) => {});
+
 app.listen(PORT, () => console.log(`Server 🔥🔥🔥 up on ${PORT}`));
